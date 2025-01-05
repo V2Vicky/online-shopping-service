@@ -28,6 +28,6 @@ public class Menu {
     private Boolean availability;
 
     @ManyToOne
-    @JoinColumn(name = "restaurant_id", nullable = false)
+	@JoinColumn(name = "restaurant_id")
     private Restaurant restaurant;
 }
